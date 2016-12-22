@@ -1861,11 +1861,6 @@ aside.sidebar li p:last-child {
 
 aside.sidebar a {
     color: inherit;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
-    transition: color 0.5s
 }
 
 aside.sidebar:hover a {
