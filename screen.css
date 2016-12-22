@@ -876,11 +876,6 @@ body>nav ul {
     }
 }
 
-.maskImage ul.subscription {
-    position: relative;
-    top: .2em
-}
-
 .maskImage ul.subscription li, .maskImage ul.subscription a {
     border: 0;
     padding: 0
