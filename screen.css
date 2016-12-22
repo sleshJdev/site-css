@@ -117,6 +117,14 @@ a {
     transition: color 0.3s
 }
 
+a:hover {
+    -webkit-transition: color 0s;
+    -moz-transition: color 0s;
+    -ms-transition: color 0s;
+    -o-transition: color 0s;
+    transition: color 0s;
+}
+
 html {
     background: #fefefe url('/images/line-tile.png?1337038437') top left
 }
