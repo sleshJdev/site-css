@@ -690,7 +690,6 @@ body > header h2 {
 
 body > nav {
   position: relative;
-  background: #fff, #fff;
   background-color: #fff;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
@@ -1894,7 +1893,7 @@ aside.sidebar:hover a:hover {
     background: -moz-linear-gradient(left, rgba(237, 237, 237, .5), rgba(237, 237, 237, 0));
     background: -o-linear-gradient(left, rgba(237, 237, 237, .5), rgba(237, 237, 237, 0));
     background: -ms-linear-gradient(left, rgba(237, 237, 237, .5), rgba(237, 237, 237, 0));
-    background: linear-gradient(left, rgba(237, 237, 237, .5), rgba(237, 237, 237, 0));
+    background: linear-gradient(to left, rgba(237, 237, 237, .5), rgba(237, 237, 237, 0));
   }
   .toggle-sidebar::after {
     position: absolute;
@@ -2043,7 +2042,6 @@ body > footer {
   font-size: .8em;
   color: #888;
   text-shadow: #fff 0 1px;
-  background: #fff, #fff;
   background-color: #fff;
   border-top: 1px solid #fff;
   position: relative;
