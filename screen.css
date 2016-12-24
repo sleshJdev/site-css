@@ -2203,7 +2203,7 @@ aside, aside a {
   text-decoration: none;
 }
 
-aside.sidebar h15 li {
+aside.sidebar .links li {
   font-size: 1.1em;
   padding: 2px;
   padding-top: 0;
