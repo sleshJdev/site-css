@@ -28,7 +28,7 @@ q, blockquote {
 }
 
 q::before, q::after, blockquote::before, blockquote::after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -50,7 +50,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   overflow: hidden;
   text-indent: -9999px;
   text-align: right;
-  background-image: url("/images/rt-header-logo.png");
+  background-image: url('/images/rt-header-logo.png');
   background-repeat: no-repeat;
 }
 
@@ -96,15 +96,15 @@ html {
 }
 
 .heading, body > header h1, h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 body, #content {
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 .mono, pre, code {
-  font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  font-family: Menlo, Monaco, 'Andale Mono', 'lucida console', 'Courier New', monospace;
 }
 
 body > header h1 {
@@ -217,11 +217,11 @@ q {
 }
 
 q::before {
-  content: "\201C";
+  content: '\201C';
 }
 
 q::after {
-  content: "\201D";
+  content: '\201D';
 }
 
 em, dfn {
@@ -295,7 +295,7 @@ blockquote cite::before {
 }
 
 .group::after, body > header::after, body > nav::after, body > footer::after, body #content > article::after, body #content > div > article::after, body #content > div > section::after, body div.pagination::after, aside.sidebar::after, #main::after, #content::after, .sidebar::after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -622,7 +622,7 @@ body > nav form {
 body > nav form .search {
   padding: .3em .5em 0;
   font-size: .85em;
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.1em;
   width: 95%;
   border-radius: .5em;
@@ -706,7 +706,7 @@ body > nav ul {
   }
   body > nav a {
     color: #858585;
-    font-family: "Helvetica", sans-serif;
+    font-family: Helvetica, sans-serif;
     text-shadow: #fff 0 1px;
     float: left;
     text-decoration: none;
@@ -803,7 +803,7 @@ body > nav ul {
 }
 
 .maskImage a[rel=subscribe-rss]::after {
-  content: "";
+  content: '';
   position: absolute;
   top: -1px;
   left: 0;
@@ -833,7 +833,7 @@ body > nav ul {
 }
 
 .maskImage a[rel=subscribe-email]::after {
-  content: "";
+  content: '';
   position: absolute;
   top: -1px;
   left: 0;
@@ -1000,7 +1000,7 @@ article > footer p.meta {
 }
 
 .separator, article > footer .byline + time::before, article > footer time + time::before, article > footer .comments::before, article > footer .byline ~ .categories::before {
-  content: "\2022 ";
+  content: '\2022 ';
   padding: 0 .4em 0 .2em;
   display: inline-block;
 }
@@ -1326,7 +1326,7 @@ aside.sidebar:hover a:hover {
     background: #fff url('/images/noise.png') top left;
     border-bottom: 1px solid #ededed;
     border-right: 1px solid #ededed;
-    content: "\00BB";
+    content: '\00BB';
     text-indent: -1px;
   }
   .collapse-sidebar .toggle-sidebar {
@@ -1340,7 +1340,7 @@ aside.sidebar:hover a:hover {
   .collapse-sidebar .toggle-sidebar::after {
     border-left: 1px solid #ededed;
     text-shadow: #fff 0 1px;
-    content: "\00AB";
+    content: '\00AB';
     left: 0;
     right: 0;
     text-align: center;
@@ -1607,7 +1607,7 @@ aside.sidebar {
   display: inline-block;
   width: 32px;
   height: 32px;
-  background: url("/images/controls.png") no-repeat top right;
+  background: url('/images/controls.png') no-repeat top right;
   transition: opacity 300ms;
   cursor: pointer;
 }
