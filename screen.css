@@ -1052,17 +1052,12 @@ pre::-webkit-scrollbar-thumb:horizontal {
 
 #blog-archives h1 a {
   text-decoration: none;
-  color: inherit;
   font-weight: normal;
   display: inline-block;
 }
 
 #blog-archives h1 a:hover {
   text-decoration: underline;
-}
-
-#blog-archives h1 a:hover {
-  color: #0181eb;
 }
 
 #blog-archives a.category, #blog-archives time {
@@ -1088,18 +1083,6 @@ pre::-webkit-scrollbar-thumb:horizontal {
 
 #blog-archives p {
   margin-bottom: 1em;
-}
-
-#blog-archives a, #blog-archives .entry-content a {
-  color: inherit;
-}
-
-#blog-archives a:hover, #blog-archives .entry-content a:hover {
-  color: #0181eb;
-}
-
-#blog-archives a:hover {
-  color: #0181eb;
 }
 
 @media only screen and (min-width: 550px) {
